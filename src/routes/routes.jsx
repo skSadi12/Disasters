@@ -3,16 +3,18 @@ import Main from "../layout/Main";
 import Home from "../page/Home";
 
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
-    errorElement: <Error></Error>,
+    errorElement: <Error>404</Error>,
     children: [
       {
         path: "/",
         element: <Home />,
       },
+      
     //   {
     //     path: "/about",
     //     element: <about />,

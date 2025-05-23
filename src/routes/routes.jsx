@@ -3,6 +3,7 @@ import Main from "../layout/Main";
 import Home from "../page/Home";
 import Incidents from "../page/Incidents";
 import Progress from "../components/progress";
+import NewIncident from "../components/NewIncident";
 
 
 
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
       {
         path:"/incidents/progress",
         element:<Progress/>,
+      },
+      {
+        path:"/incidents/progress/NewIncident",
+        element:<NewIncident/>,
       },
       
     //   {

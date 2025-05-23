@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import OrBtn from "./OrBtn";
 import { cn } from "../libs";
+import { Link } from "react-router-dom";
 
 function Stepper() {
   const [currentStep, setCurrentStep] = useState(0);
@@ -89,7 +90,7 @@ function Stepper() {
         </button>
         {currentStep === steps.length -1 ? (
           <button >
-            <OrBtn>Get started</OrBtn>
+            <OrBtn><Link to='/incidents/progress/NewIncident'>Get started</Link></OrBtn>
           </button>
         ) : (
           <button onClick={handleContinue}>

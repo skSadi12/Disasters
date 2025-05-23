@@ -76,7 +76,7 @@ function Navbar() {
                   <div className="active:font-bold active:text-black
                    text-[#A1A1AA] font-semibold active:border-b-3 active:border-black">
                       <Button color="inherit"  sx={{fontWeight:"bold"}} >
-                        <Link to="" >Incidents</Link>
+                        <Link to="/incidents" >Incidents</Link>
                       </Button>
                     </div>
                   <div className="active:font-bold active:text-black text-[#A1A1AA] font-semibold active:border-b-3 active:border-black">

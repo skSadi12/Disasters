@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
 import Home from "../page/Home";
 import Incidents from "../page/Incidents";
+import Progress from "../components/progress";
 
 
 
@@ -18,6 +19,10 @@ export const router = createBrowserRouter([
       {
         path:"/incidents",
         element:<Incidents/>,
+      },
+      {
+        path:"/incidents/progress",
+        element:<Progress/>,
       },
       
     //   {

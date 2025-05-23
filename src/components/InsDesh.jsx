@@ -18,7 +18,7 @@ function InsDash() {
                     <input type="text" placeholder='Sort By: Date modified' className='outline-0'/>
                 </div>
                 <OrBtn>
-                    <Link to="">+  New Incident</Link>
+                    <Link to="/incidents/progress">+  New Incident</Link>
                 </OrBtn>
             </div>
         </div>

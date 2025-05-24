@@ -30,7 +30,7 @@ function IncLocDesh() {
             <Link to="/incidents/progress/NewIncident/CreateNewIncident">Back</Link>
           </button>
           <OrBtn>
-            <Link to="">Next step</Link>
+            <Link to="/incidents/progress/NewIncident/CreateNewIncident/IncidentLocation/IncidentSevere">Next step</Link>
           </OrBtn>
         </div>
       </div>

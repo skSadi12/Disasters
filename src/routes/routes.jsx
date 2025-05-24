@@ -6,6 +6,7 @@ import Progress from "../components/progress";
 import NewIncident from "../components/NewIncident";
 import CreateNewIncident from "../components/CreateNewIncident";
 import IncidentLocation from "../components/IncidentLocation";
+import IncidentSevere from "../components/IncidentSevere";
 
 
 
@@ -39,6 +40,10 @@ export const router = createBrowserRouter([
       {
         path:"/incidents/progress/NewIncident/CreateNewIncident/IncidentLocation",
         element:<IncidentLocation/>,
+      },
+      {
+        path:"/incidents/progress/NewIncident/CreateNewIncident/IncidentLocation/IncidentSevere",
+        element:<IncidentSevere/>,
       },
 
       

@@ -3,7 +3,7 @@ import OrBtn from "./sheard/OrBtn";
 import { Link } from "react-router-dom";
 import CustomizedProgressBars from './sheard/Prog';
 
-function CreateNewIncidentDesh() {
+function IncLocDesh() {
   return (
     <section className="bg-[#E4E4E7] px-5 py-4">
       <div className="max-w-[1400px] mx-auto px-5 flex justify-between gap-10 flex-col sm:flex-row">
@@ -23,14 +23,14 @@ function CreateNewIncidentDesh() {
           </div>
         </div>
         <div className=' hidden lg:block'>
-            <CustomizedProgressBars children={50}/>
+            <CustomizedProgressBars children={90}/>
         </div>
         <div className="flex items-center gap-8 flex-col md:flex-row">
           <button className="bg-white px-8 py-1 hover:text-white hover:bg-[#F26922] transition-all duration-300 rounded-[5px]">
-            <Link to="/incidents/progress/NewIncident">Back</Link>
+            <Link to="/incidents/progress/NewIncident/CreateNewIncident">Back</Link>
           </button>
           <OrBtn>
-            <Link to="/incidents/progress/NewIncident/CreateNewIncident/IncidentLocation">Next step</Link>
+            <Link to="">Next step</Link>
           </OrBtn>
         </div>
       </div>
@@ -38,4 +38,4 @@ function CreateNewIncidentDesh() {
   )
 }
 
-export default CreateNewIncidentDesh
+export default IncLocDesh

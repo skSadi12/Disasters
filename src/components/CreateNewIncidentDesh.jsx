@@ -22,7 +22,7 @@ function CreateNewIncidentDesh() {
             <h2 className="text-[26px] ">New Incident</h2>
           </div>
         </div>
-        <div>
+        <div className=' hidden lg:block'>
             <CustomizedProgressBars children={50}/>
         </div>
         <div className="flex items-center gap-8 flex-col md:flex-row">

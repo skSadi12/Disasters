@@ -42,7 +42,7 @@ function GradientCircularProgress() {
 }
 export default function CustomizedProgressBars({children}) {
   return (
-    <Stack spacing={0} sx={{ flexGrow: 1 ,minWidth:"500px", color:"#FB923C" }}>
+    <Stack spacing={0} sx={{ flexGrow: 1 ,minWidth:"450px", color:"#FB923C", }}>
       <FacebookCircularProgress />
       <GradientCircularProgress />
       <br />

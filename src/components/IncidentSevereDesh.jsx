@@ -7,7 +7,7 @@ import CustomizedProgressBars from "./sheard/Prog";
 function IncidentSevereDesh() {
   return (
     <section className="bg-[#E4E4E7]  py-4">
-      <div className="max-w-[1400px] mx-auto px-5 md:px-1 flex justify-between gap-10 flex-col sm:flex-row">
+      <div className="max-w-[1400px] mx-auto px-5 lg:px-1 flex justify-between gap-10 flex-col sm:flex-row">
         <div className="md:text-start text-center">
           <p className="text-[12px] text-[#71717A]  ">
             Incidents - DR-4699 March 2023 Severe Storms
@@ -29,6 +29,7 @@ function IncidentSevereDesh() {
                 </OrBtn>
             </div>
       </div>
+      
     </section>
   );
 }
